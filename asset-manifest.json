@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/reayboi-gh-pages/static/css/main.073c9b0a.css",
-    "main.js": "/reayboi-gh-pages/static/js/main.c3422288.js",
+    "main.css": "/reayboi-gh-pages/static/css/main.964fdded.css",
+    "main.js": "/reayboi-gh-pages/static/js/main.43033414.js",
     "static/js/787.9b8f8bc5.chunk.js": "/reayboi-gh-pages/static/js/787.9b8f8bc5.chunk.js",
-    "static/media/logo.svg": "/reayboi-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/reayboi-gh-pages/index.html",
-    "main.073c9b0a.css.map": "/reayboi-gh-pages/static/css/main.073c9b0a.css.map",
-    "main.c3422288.js.map": "/reayboi-gh-pages/static/js/main.c3422288.js.map",
+    "main.964fdded.css.map": "/reayboi-gh-pages/static/css/main.964fdded.css.map",
+    "main.43033414.js.map": "/reayboi-gh-pages/static/js/main.43033414.js.map",
     "787.9b8f8bc5.chunk.js.map": "/reayboi-gh-pages/static/js/787.9b8f8bc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c3422288.js"
+    "static/css/main.964fdded.css",
+    "static/js/main.43033414.js"
   ]
 }

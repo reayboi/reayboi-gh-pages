@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: teal;
-  color: #fefefe;
+  background-color: teal !important;
+  color: #fefefe !important;
   font-size: xx-large;
 }

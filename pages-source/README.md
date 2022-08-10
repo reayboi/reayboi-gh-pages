@@ -1,9 +1,9 @@
-# source code for reayboi.dev
+# Source code for reayboi.dev
 This is the reposiory for reayboi.dev, a portfolio/blog website designed to showcase my projects and contact information if you wish to reach out.
 
 ## Tech Stack
-> React
-> TypeScript
+> React <br />
+> TypeScript <br />
 > Material UI
 
 # Notes to self...

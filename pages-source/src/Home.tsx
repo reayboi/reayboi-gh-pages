@@ -1,4 +1,5 @@
-import { Grid, Typography } from "@mui/material";
+/* eslint-disable require-jsdoc */
+import { Grid } from "@mui/material";
 import React from "react";
 import "./App.css";
 import Typewriter from 'typewriter-effect';

@@ -1,10 +1,14 @@
 /* eslint-disable require-jsdoc */
 import { Grid } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Typewriter from 'typewriter-effect';
+import Navbar from "./Components/Navbar";
 
 function Home() {
+
+  const [completed, setCompleted] = useState(false);
+  
   return (
     <div className="Home">
       <Grid container
@@ -21,11 +25,14 @@ function Home() {
       .pauseFor(2500)
       .deleteAll()
       .typeString("Welcome to <strong>reayboi.dev</strong>")
+      .callFunction(() => {
+        setCompleted(true);
+      })
       .start();
   }}
 />
+{completed ? <Navbar /> : null}
       </Grid>
-        
     </div>
   );
 }

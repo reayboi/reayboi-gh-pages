@@ -1,11 +1,21 @@
 import { Button } from '@mui/material';
 import React from 'react';
+import { Animate } from 'react-simple-animate';
 
-const Navbar = () => {
+interface NavbarProps {
+    play : boolean;
+}
+
+const Navbar = (props : NavbarProps) => {
     return (
-    <div className='Navbar'>
+        <Animate
+        play={props.play} // Toggle when animation should start
+        start={{ opacity: 0, filter: 'blur(10px)'  }}
+        end={{ opacity: 1, filter: 'blur(0)' }}
+      >
         <Button variant="contained">View Projects</Button>
-    </div>);
+      </Animate>
+    );
 }
 
 export default Navbar;

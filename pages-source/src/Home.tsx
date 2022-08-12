@@ -31,7 +31,7 @@ function Home() {
       .start();
   }}
 />
-{completed ? <Navbar /> : null}
+{completed ? <Navbar play={completed}/> : null}
       </Grid>
     </div>
   );

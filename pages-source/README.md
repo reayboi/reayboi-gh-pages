@@ -4,7 +4,11 @@ This is the reposiory for reayboi.dev, a portfolio/blog website designed to show
 ## Tech Stack
 > React <br />
 > TypeScript <br />
-> Material UI
+> Material UI <br/>
+
+## Libraries
+> typewriter-effect <br />
+> react-simple-animate
 
 # Notes to self...
 ## TO UPDATE THE LIVE WEBSITE

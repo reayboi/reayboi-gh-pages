@@ -5,6 +5,7 @@ This is the reposiory for reayboi.dev, a portfolio/blog website designed to show
 > React <br />
 > TypeScript <br />
 > Material UI <br/>
+> GitHub Pages
 
 ## Libraries
 > typewriter-effect <br />

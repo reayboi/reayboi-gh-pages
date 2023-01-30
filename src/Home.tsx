@@ -20,14 +20,15 @@ function Home() {
         <Typewriter
           onInit={typewriter => {
             typewriter
-              .typeString('Welcome to <strong>reayboi.dev</strong> <br />')
-              .pauseFor(300)
-              .typeString(
-                "My name's <strong>Brandon Reay</strong> and I'm a software developer based in Scotland"
-              )
-              .pauseFor(2500)
+              .typeString('Welcome to <strong>reayboi.dev</strong>')
+              .pauseFor(150)
               .deleteAll()
-              .typeString('Check out my personal projects')
+              .typeString(
+                "My name's <strong>Brandon Reay</strong> and I'm a software dev"
+              )
+              .pauseFor(300)
+              .deleteAll()
+              .typeString('Checkout my work!')
               .callFunction(() => {
                 setCompleted(true);
               })
